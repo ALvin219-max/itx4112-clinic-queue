@@ -32,7 +32,7 @@ form.addEventListener('submit', function (event) {
   // TODO 5: Create cards with textContent
   // Safely set codeText's text using .textContent (never .innerHTML!):
   // codeText.textContent = ???;
-  codeText.textContent = patientCode
+  codeText.textContent = patientCode;
 
   const serviceText = document.createElement('p');
   serviceText.classList.add('service');
